@@ -50,7 +50,6 @@ const allPosts = await Astro.glob('../content/tips/*.md');
 					time={item?.frontmatter.pubDate}
 					title={item?.frontmatter.title}
 					tags={item?.frontmatter.tags}
-					slug={item?.frontmatter.slug}
 				/>
 				
 				))
